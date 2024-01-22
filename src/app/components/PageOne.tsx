@@ -11,7 +11,7 @@ type Props = {}
 
 const PageOne = (props: Props) => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 px-10 py-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 px-10 py-4 mb-28">
             {/* first grid */}
             <div className='flex flex-col space-y-8 px-4'>
                 {/* title heading */}
@@ -28,7 +28,7 @@ const PageOne = (props: Props) => {
                     <button className="bg-blue-700 hover:bg-blue-900 text-white font-semibold py-2 px-4 rounded-full text-xs md:text-sm">
                         Start your free trial
                     </button>
-                    <div className='flex items-center'>
+                    <div className='flex items-center space-x-1'>
                         <FaRobot className='text-blue-600 hidden md:inline-block' />
                         <button className="bg-white hover:bg-gray-100 text-blue-600 font-semibold py-2 px-4 rounded-full text-xs md:text-sm">
                             Discover AI assistant
