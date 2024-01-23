@@ -1,3 +1,4 @@
+import PageFive from "./components/PageFive";
 import PageFour from "./components/PageFour";
 import PageOne from "./components/PageOne";
 import PageThree from "./components/PageThree";
@@ -12,6 +13,7 @@ export default function Home() {
       <PageTwo/>
       <PageThree/>
       <PageFour/>
+      <PageFive/>
     </main>
   );
 }
