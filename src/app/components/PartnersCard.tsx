@@ -11,7 +11,7 @@ type Props = {}
 
 const PartnersCard = (props: Props) => {
     return (
-        <div className='flex w-full items-center flex-col space-y-4'>
+        <div className='flex w-full items-center flex-col space-y-4 mb-28 px-10'>
             <p className='text-gray-500 text-sm'>
                 Join 1,500+ companies already video conferencing the ClearLink way
             </p>
