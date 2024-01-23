@@ -8,7 +8,7 @@ type Props = {}
 
 const PageTwo = (props: Props) => {
     return (
-        <div className='w-full flex flex-col space-y-8 px-10 mb-28'>
+        <div className='w-full flex flex-col space-y-8 lg:px-10 mb-28'>
             {/* why choose clearlink */}
             <div className='w-full grid grid-cols-1 md:grid-cols-2 mb-12'>
                 <div className='w-full flex flex-col space-y-4'>
@@ -67,7 +67,7 @@ const PageTwo = (props: Props) => {
                 </div>
                 {/* grid of images */}
                 <div className='relative mt-8 md:mt-1'>
-                    <Image src={gridImages} className='h-[500px] w-auto' alt='grid images' />
+                    <Image src={gridImages} className='h-auto w-[500px]' alt='grid images' />
                     <div className='absolute right-56 -top-56 hidden lg:block'>
                         <Image src={drawing} alt='hand drawn image' />
                     </div>

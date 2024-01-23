@@ -11,7 +11,7 @@ type Props = {}
 
 const PageOne = (props: Props) => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 px-10 py-4 mb-28">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 lg:px-10 py-4 mb-28">
             {/* first grid */}
             <div className='flex flex-col space-y-8 px-4'>
                 {/* title heading */}
