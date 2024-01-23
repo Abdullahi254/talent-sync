@@ -38,18 +38,18 @@ const PageThree = (props: Props) => {
                     </div>
                     {/* arrows */}
                     <div className='flex space-x-4'>
-                        <div className=' rounded-full bg-white p-5 cursor-pointer hover:bg-gray-50'>
+                        <div className=' rounded-full bg-white p-5 cursor-pointer hover:bg-gray-50 hidden sm:block'>
                             <FaArrowRight className='rotate-180 text-blue-600 text-sm md:text-base' />
                         </div>
 
-                        <div className=' rounded-full bg-white p-5 cursor-pointer hover:bg-gray-50'>
+                        <div className=' rounded-full bg-white p-5 cursor-pointer hover:bg-gray-50 hidden sm:block'>
                             <FaArrowRight className='text-blue-600 text-sm md:text-base' />
                         </div>
                     </div>
                 </div>
             </div>
             {/* second grid content */}
-            <div className='w-full flex flex-wrap space-x-4 space-y-4 self-start'>
+            <div className='w-full flex flex-wrap justify-center space-x-4 space-y-4 self-start'>
                 <Image src={p1} alt='Image' className='self-start'/>
                 <Image src={p2} alt='Image' className='self-start'/>
                 <Image src={p3} alt='Image' className='self-start'/>
