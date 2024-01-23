@@ -18,12 +18,12 @@ const VideoBox = (props: Props) => {
     <div className="bg-blue-50 p-8 rounded-xl shadow-md">
       {/* animation avator grid */}
       <div className='grid grid-cols-3 gap-4 mb-6'>
-        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp1} alt="Rounded avatar" />
-        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp2} alt="Rounded avatar" />
-        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp3} alt="Rounded avatar" />
-        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp4} alt="Rounded avatar" />
-        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp5} alt="Rounded avatar" />
-        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp6} alt="Rounded avatar" />
+        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp1} alt="Rounded avatar" priority/>
+        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp2} alt="Rounded avatar" priority/>
+        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp3} alt="Rounded avatar" priority/>
+        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp4} alt="Rounded avatar" priority/>
+        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp5} alt="Rounded avatar" priority/>
+        <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp6} alt="Rounded avatar" priority/>
       </div>
       {/* icons layout */}
       <div className='flex flex-wrap space-x-4 space-y-1 items-center w-full justify-center'>

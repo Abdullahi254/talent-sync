@@ -38,10 +38,10 @@ const PageOne = (props: Props) => {
                 {/* avatars and star ratings */}
                 <div className='flex space-x-4 flex-wrap'>
                     <div className='flex'>
-                        <Image className="w-10 h-10 rounded-full -mx-2" src={dp6} alt="Rounded avatar" />
-                        <Image className="w-10 h-10 rounded-full -mx-2" src={dp1} alt="Rounded avatar" />
-                        <Image className="w-10 h-10 rounded-full -mx-2" src={dp2} alt="Rounded avatar" />
-                        <Image className="w-10 h-10 rounded-full -mx-2" src={dp3} alt="Rounded avatar" />
+                        <Image className="w-10 h-10 rounded-full -mx-2" src={dp6} alt="Rounded avatar" priority />
+                        <Image className="w-10 h-10 rounded-full -mx-2" src={dp1} alt="Rounded avatar" priority />
+                        <Image className="w-10 h-10 rounded-full -mx-2" src={dp2} alt="Rounded avatar" priority />
+                        <Image className="w-10 h-10 rounded-full -mx-2" src={dp3} alt="Rounded avatar" priority />
                     </div>
                     <div className='flex flex-col space-y-2'>
                         <div className='flex space-x-2 items-center'>

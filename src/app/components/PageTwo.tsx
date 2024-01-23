@@ -67,9 +67,9 @@ const PageTwo = (props: Props) => {
                 </div>
                 {/* grid of images */}
                 <div className='relative mt-8 md:mt-1'>
-                    <Image src={gridImages} className='h-auto w-[500px]' alt='grid images' />
+                    <Image src={gridImages} className='h-auto w-[500px]' alt='grid images' priority/>
                     <div className='absolute right-56 -top-56 hidden lg:block'>
-                        <Image src={drawing} alt='hand drawn image' />
+                        <Image src={drawing} alt='hand drawn image' priority/>
                     </div>
                 </div>
 

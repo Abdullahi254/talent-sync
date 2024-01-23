@@ -17,7 +17,7 @@ const PageThree = (props: Props) => {
         <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-4 lg:px-10 mb-28 bg-gray-100 py-4'>
             {/* first grid content */}
             <div className='w-full flex flex-col space-y-4 items-start md:justify-evenly'>
-                <Image height={100} width={120} className="h-auto w-auto" src={shopify} alt="shopify logo" />
+                <Image height={100} width={120} className="h-auto w-auto" src={shopify} alt="shopify logo" priority/>
                 <div className='flex space-x-2 px-5'>
                     <FaStar className='text-yellow-500' />
                     <FaStar className='text-yellow-500' />
@@ -30,7 +30,7 @@ const PageThree = (props: Props) => {
                 </p>
                 <div className='w-full flex justify-between px-5'>
                     <div className='flex space-x-2'>
-                        <Image src={avator} alt='avator icon' />
+                        <Image src={avator} alt='avator icon' priority/>
                         <div className='space-y-1'>
                             <h3 className='font-semibold text-xs md:text-sm'>Sarah Thompson</h3>
                             <h4 className='text-gray-500 text-xs md:text-sm'> Project Manager, Shopify</h4>
@@ -50,11 +50,11 @@ const PageThree = (props: Props) => {
             </div>
             {/* second grid content */}
             <div className='w-full flex flex-wrap justify-center space-x-4 space-y-4 self-start'>
-                <Image src={p1} alt='Image' className='self-start'/>
-                <Image src={p2} alt='Image' className='self-start'/>
-                <Image src={p3} alt='Image' className='self-start'/>
-                <Image src={p4} alt='Image' className='self-start'/>
-                <Image src={p5} alt='Image' className='self-start'/>
+                <Image src={p1} alt='Image' className='self-start' priority/>
+                <Image src={p2} alt='Image' className='self-start' priority/>
+                <Image src={p3} alt='Image' className='self-start' priority/>
+                <Image src={p4} alt='Image' className='self-start' priority/>
+                <Image src={p5} alt='Image' className='self-start' priority/>
             </div>
         </div>
     )

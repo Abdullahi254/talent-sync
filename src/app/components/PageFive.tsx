@@ -29,7 +29,7 @@ const PageFive = (props: Props) => {
                 </div>
             </div>
             {/* grid two content */}
-            <Image src={mockup} alt='video call mockup' className='rounded-md border-black border-4'/>
+            <Image src={mockup} alt='video call mockup' className='rounded-md border-black border-4' priority/>
         </div>
     )
 }
