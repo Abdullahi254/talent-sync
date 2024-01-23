@@ -29,7 +29,7 @@ const PageOne = (props: Props) => {
                         Start your free trial
                     </button>
                     <div className='flex items-center space-x-1'>
-                        <FaRobot className='text-blue-600 hidden md:inline-block' />
+                        <FaRobot className='text-blue-600' />
                         <button className="bg-white hover:bg-gray-100 text-blue-600 font-semibold py-2 px-4 rounded-full text-xs md:text-sm">
                             Discover AI assistant
                         </button>
