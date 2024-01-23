@@ -1,3 +1,4 @@
+import PageFour from "./components/PageFour";
 import PageOne from "./components/PageOne";
 import PageThree from "./components/PageThree";
 import PageTwo from "./components/PageTwo";
@@ -10,6 +11,7 @@ export default function Home() {
       <PartnersCard/>
       <PageTwo/>
       <PageThree/>
+      <PageFour/>
     </main>
   );
 }

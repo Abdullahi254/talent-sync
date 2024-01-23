@@ -26,7 +26,7 @@ const VideoBox = (props: Props) => {
         <Image className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-2xl" src={dp6} alt="Rounded avatar" />
       </div>
       {/* icons layout */}
-      <div className='flex flex-wrap space-x-4 w-full justify-center'>
+      <div className='flex flex-wrap space-x-4 space-y-1 items-center w-full justify-center'>
         <div className='rounded-full bg-white p-2'>
           <IoMicOutline className='text-blue-500 text-lg' />
         </div>
